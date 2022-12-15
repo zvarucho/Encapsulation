@@ -18,7 +18,7 @@ public class Car {
     if(newYear >= 1800 && newYear <= 2022) {
       year = newYear;
     } else {
-      throw new IllegalArgumentException("Value must be between 1800 and 2023");
+      throw new IllegalArgumentException("Value must be between 1800 and 2022");
     }
   }
 
